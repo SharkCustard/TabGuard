@@ -10,29 +10,31 @@ h1,h2{line-height:1.2}h1{font-size:36px}h2{margin-top:32px;font-size:22px}
 </style></head>
 <body>
 <h1>Tab Guard Privacy Policy</h1>
-<p><small>Last updated: 16 September 2026</small></p>
+<p><small>Last updated: 16-10-2026</small></p>
 
-<p class="note"><strong>Summary:</strong> Tab Guard analyses browser tab and navigation behaviour locally to detect suspicious tab hijacking. The current closed beta does not upload browsing history, page content, protection history, site rules or diagnostic data to the developer or third parties.</p>
+<p class="note"><strong>Summary:</strong> Tab Guard analyses browser tab, navigation and limited user-interaction signals locally to detect suspicious tab hijacking. It does not automatically upload browsing history, page text, protection history, site rules or diagnostic data to the developer or third parties.</p>
 
 <h2>What Tab Guard processes</h2>
-<p>To provide its tab-hijack protection, Tab Guard processes web browsing activity necessary for that feature, including website domains/URLs, top-level navigation events, navigation timing, whether tabs/windows were created, and limited user-interaction signals associated with links or window-opening behaviour.</p>
-<p>Tab Guard does not collect page text, form contents, passwords, authentication cookies, payment information, personal communications, screenshots, or general page content.</p>
+<p>To provide tab-hijack protection, Tab Guard processes the browsing information needed for that purpose, including website domains/URLs, top-level navigation events and timing, whether tabs or windows were created, and limited user-action signals associated with links or window-opening behaviour.</p>
+<p>Where necessary to understand a user-triggered navigation, Tab Guard may process a link destination URL or similar hyperlink information. It does not scrape or collect general page text, form contents, passwords, authentication cookies, payment information, personal communications, screenshots, images, audio or video.</p>
 
 <h2>How this information is used</h2>
-<p>The information is used only to detect and respond to suspicious multi-tab navigation behaviour, apply site rules chosen by the user, show recent protection history, and provide local diagnostics.</p>
+<p>The information is used only to detect and respond to suspicious multi-tab navigation behaviour, apply site rules chosen by the user, show recent protection history, provide local diagnostics and operate Tab Guard's user-facing protection controls.</p>
 
 <h2>Local storage</h2>
-<p>Protection settings, site rules, recent block history, diagnostic state and beta-licence state are stored locally in Chrome. Users can clear relevant history/rules from the extension settings or remove the extension to remove its locally stored extension data.</p>
+<p>Tab Guard stores extension settings locally in Chrome, including protection mode, site rules, recent protection history, diagnostic state, onboarding/update state, a random installation identity, and whether a first-site protection notice has already been shown. Temporary decision state may also be stored for the current browser session.</p>
+<p>The random installation identity is generated locally and is not based on a user's name, email address, hardware serial number, browsing history or advertising identifier.</p>
 
 <h2>Data transmission and sharing</h2>
-<p>The current closed beta does not transmit browsing history, page content, site rules, protection history or diagnostic data to the developer, advertising networks, analytics services or other third parties.</p>
+<p>Tab Guard does not automatically transmit browsing history, page text, site rules, protection history or diagnostic data to the developer, advertising networks, analytics services or other third parties.</p>
+<p>If a user chooses to send feedback, Tab Guard may prepare basic version, mode and installation details for the user to copy or send. The user decides whether to provide that information. Browsing history is not automatically included or transmitted.</p>
 <p>Tab Guard does not sell personal data or browsing data and does not use browsing activity for advertising, profiling, creditworthiness or lending.</p>
 
-<h2>Beta Tester Pass</h2>
-<p>The closed beta may use an installation-bound Beta Tester Pass. The extension generates a random local installation identifier and derives a non-personal Install Code from it. The Install Code is not an email address, account name, hardware serial number or advertising identifier. The signed pass contains a random pass ID, expiry date and Install Code.</p>
+<h2>Chrome permissions and website access</h2>
+<p>Tab Guard uses Chrome permissions for tabs, navigation and local storage, plus access to ordinary HTTP/HTTPS pages. Broad website access is necessary because suspicious tab-displacement behaviour can occur on any website. That access is used only for Tab Guard's disclosed protection purpose.</p>
 
-<h2>Chrome permissions</h2>
-<p>Tab Guard uses Chrome permissions for tabs, navigation and local storage, plus page access on ordinary HTTP/HTTPS websites. Broad page access is necessary because suspicious tab-displacement behaviour can occur on any website. Access is limited to the extension's user-facing protection purpose.</p>
+<h2>Chrome Web Store data disclosures</h2>
+<p>Because Tab Guard must inspect navigation URLs, user-triggered link/window activity and limited hyperlink information to detect hijacking, the Chrome Web Store may classify the data it processes under categories including Web history, User activity and Website content. This processing is local to the browser unless the user deliberately chooses to send feedback.</p>
 
 <h2>Limited Use</h2>
 <p>The use of information received from Google APIs will adhere to the Chrome Web Store User Data Policy, including the Limited Use requirements. Tab Guard uses browser data only to provide or improve its disclosed tab-protection purpose and does not use or transfer that data for personalised advertising.</p>
@@ -41,5 +43,5 @@ h1,h2{line-height:1.2}h1{font-size:36px}h2{margin-top:32px;font-size:22px}
 <p>This policy may be updated as Tab Guard develops. Material changes to data practices will be reflected here and, where required, disclosed before the changed practice takes effect.</p>
 
 <h2>Contact</h2>
-<p>For privacy or support questions, contact: <strong>[YOUR SUPPORT EMAIL]</strong></p>
+<p>For privacy or support questions, contact: <strong>tabguard@sharkinfestedcustard.net</strong></p>
 </body></html>
